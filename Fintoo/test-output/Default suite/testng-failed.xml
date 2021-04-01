@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fintoo.Testcases.TC_UserFlow_Functionality_004">
+      <class name="form_Filling.Testcases.Demo">
         <methods>
-          <include name="setReport"/>
-          <include name="close"/>
           <include name="tearDown"/>
+          <include name="setReport"/>
+          <include name="trial"/>
           <include name="down"/>
+          <include name="close"/>
           <include name="start"/>
-          <include name="userFlowFunctionality"/>
         </methods>
-      </class> <!-- fintoo.Testcases.TC_UserFlow_Functionality_004 -->
+      </class> <!-- form_Filling.Testcases.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

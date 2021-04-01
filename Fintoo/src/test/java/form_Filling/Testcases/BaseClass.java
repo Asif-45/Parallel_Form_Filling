@@ -1,4 +1,4 @@
-package fintoo.Testcases;
+package form_Filling.Testcases;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -34,7 +34,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import fintoo.Utilities.ReadConfig;
+import form_Filling.Utilities.ReadConfig;
 
 public class BaseClass extends TestListenerAdapter {
 
